@@ -14,7 +14,7 @@ const server = http.createServer((req, res)=> {
   if(method === 'POST' && url === '/users') {
     users.push({
       id: 1,
-      name: 'Alessandro Oliveira',
+      name: 'Alessandro Duarte de Oliveira',
       email: 'aleduarte.o@gmail.com'
     })
 
